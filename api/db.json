@@ -1,0 +1,975 @@
+{
+  "products": [
+    {
+      "name": "Monitor Odyssey G4",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHD.",
+      "category": "Monitors",
+      "brand": "Asus",
+      "image": [
+        "https://i.postimg.cc/4Z5Q5pcx/ar-odyssey-g4-27g40b-ls27bg400el.png",
+        "https://i.postimg.cc/qBkXrvPr/ar-odyssey-g4-27g40b-ls27bg400el-1.png",
+        "https://i.postimg.cc/yBBTcLkG/ar-odyssey-g4-27g40b-ls27bg400el-2.png",
+        "https://i.postimg.cc/4fvbj9Fw/ar-odyssey-g4-27g40b-ls27bg400el-3.png"
+      ],
+      "threeDi": false,
+      "price": 269,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "Monitor Odyssey G9",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDa.",
+      "category": "Monitors",
+      "brand": "Aorus",
+      "image": [
+        "https://i.postimg.cc/pWNJGHRf/ar-odyssey-g9-lc49g95tsslxzb-532.png",
+        "https://i.postimg.cc/Gb2K9KXy/ar-odyssey-g9-lc49g95tsslxzb-532-3.png",
+        "https://i.postimg.cc/3K0ZFR5r/ar-odyssey-g9-lc49g95tsslxzb-532-2.png",
+        "https://i.postimg.cc/fMrKddPg/ar-odyssey-g9-lc49g95tsslxzb-532-1.png"
+      ],
+      "threeDi": false,
+      "price": 899,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "UltraView Pro X3",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDb.",
+      "category": "Monitors",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/nKeotAS.png"],
+      "threeDi": false,
+      "price": 343,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "UltraView Pro X4",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDc.",
+      "category": "Monitors",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/bNa8HuU.png"],
+      "threeDi": false,
+      "price": 133,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "TUF GAMING VG27AQ1A",
+      "description": "TUF Gaming VG27AQ1A is a 27-inch WQHD (2560 x 1440) IPS display with an ultrafast 170Hz refresh rate. Designed for gamers and others seeking immersive gameplay, it offers some serious specs.",
+      "category": "Monitors",
+      "brand": "Asus",
+      "image": [
+        "https://www.asus.com/media/global/gallery/lfmykpgsp2ezptt1_setting_xxx_0_90_end_1000.png",
+        "https://www.asus.com/media/global/gallery/cw2jbz07zahhw0j7_setting_xxx_0_90_end_1000.png",
+        "https://www.asus.com/media/global/gallery/qopnh9b8ln4lgoex_setting_xxx_0_90_end_1000.png",
+        "https://www.asus.com/media/global/gallery/rkfsxyevpdsayxfs_setting_xxx_0_90_end_1000.png"
+      ],
+      "threeDi": true,
+      "price": 403,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "UltraView Pro X6",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDe.",
+      "category": "Monitors",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/Z6EUOdX.png"],
+      "threeDi": false,
+      "price": 300,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "UltraView Pro X7",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDf.",
+      "category": "Monitors",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/NjTZ0Yq.png"],
+      "threeDi": false,
+      "price": 250,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "UltraView Pro X8",
+      "description": "Experimenta la última innovación en visualización con el monitor UltraView Pro X1. Este monitor de vanguardia presenta una pantalla curva de 32 pulgadas con una resolución 4K UHDg.",
+      "category": "Monitors",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/QgwlLA9.png"],
+      "threeDi": false,
+      "price": 83,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "TUF GAMING VG27VQ",
+      "description": "TUF Gaming VG27VQ is a 27-inch, Full HD (1920x1080) curved display with an ultra-fast 165Hz refresh rate designed for professional gamers and those looking for immersive gaming.",
+      "category": "Monitors",
+      "brand": "Asus",
+      "image": [
+        "https://dlcdnwebimgs.asus.com/gain/45456314-66c1-448a-9164-2868285243a7//fwebp",
+        "https://www.asus.com/media/global/gallery/e8gskzteotchszs4_setting_xxx_0_90_end_1000.png",
+        "https://www.asus.com/media/global/gallery/4e6idevbigmzgmpb_setting_xxx_0_90_end_1000.png",
+        "https://www.asus.com/media/global/gallery/d5gcomrllssldixn_setting_xxx_0_90_end_1000.png"
+      ],
+      "threeDi": false,
+      "price": 103,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "Swift 360Hz PG27AQN",
+      "description": "ROG Swift 360Hz PG27AQN is the world's fastest 1440p QHD esports gamer monitor and is ideal for titles such as Valorant, Fortnite, Apex Legends and CS: Go.",
+      "category": "Monitors",
+      "brand": "Asus",
+      "image": [
+        "https://dlcdnwebimgs.asus.com/gain/08561B4D-EB5A-45D2-8284-7E8CC69726A1/w1000/h732",
+        "https://dlcdnwebimgs.asus.com/gain/1766080D-D16B-4645-9523-DAF9CBBFB77C/w1000/h732",
+        "https://dlcdnwebimgs.asus.com/gain/377F679E-10AB-4FFF-BE11-841A47AF3BCB/w1000/h732",
+        "https://dlcdnwebimgs.asus.com/gain/9F2CD1DC-BB1C-44A1-9A09-48A806A2BD1E/w1000/h732"
+      ],
+      "threeDi": false,
+      "price": 269,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/arEIFVa.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro a",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro a. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/fyhDHmT.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4]
+    },
+    {
+      "name": "SonicWave Pro b",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro b. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/7VmJ1yi.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro d",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro d. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/lQg0zDM.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro e",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro e. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/9i8hf34.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro f",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro f. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/8TzpoMg.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "Nari Ultimate Wireless",
+      "description": "Razer Nari Ultimate Wireless Gaming Headset . FEEL EVERY BATTLE Introducing the Razer Nari Ultimate, featuring Razer HyperSense — a wireless PC gaming headset equipped with intelligent haptic technology developed by Lofelt.",
+      "category": "Headsets",
+      "brand": "Razer",
+      "image": [
+        "https://www.games2egypt.com/Images/Products/29496?fileFormat=1&height=500",
+        "https://www.games2egypt.com/Images/Products/35521?fileFormat=1&height=500",
+        "https://www.games2egypt.com/Images/Products/35519?fileFormat=1&height=500",
+        "https://40bc23136fbccfbfd16a-d1efe2f0adbefb811760622b90eef2d8.ssl.cf5.rackcdn.com/3-oK3BJInG-large.png"
+      ],
+      "threeDi": true,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro h",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro h. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/EIbdBKz.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro i",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro i. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/uhvpZjj.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "SonicWave Pro j",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro j. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "category": "Headsets",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/uhvpZjj.png"],
+      "threeDi": false,
+      "price": 33,
+      "rating": [5, 3, 4],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono StudioPro X1",
+      "description": "El Micrófono StudioPro X1 es la elección perfecta para grabaciones de estudio de alta calidad. Captura audio cristalino con su diseño de condensador y suprime ruidos no deseados para resultados profesionales.",
+      "category": "Microphones",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/QtMgkVq.png"],
+      "threeDi": false,
+      "price": 199.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono PodcastMaster Pro",
+      "description": "Eleva tu podcast a un nivel superior con el Micrófono PodcastMaster Pro. Ofrece una claridad de voz excepcional y una fácil conectividad a tu equipo de grabación.",
+      "category": "Microphones",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/LqjDNE5.png"],
+      "threeDi": false,
+      "price": 129.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "QuadCast S RGB",
+      "description": " The QuadCast S is an all-inclusive mic, featuring an anti-vibration shock mount to help quiet the rumbles of daily life and a built-in pop filter to muffle plosive sounds.",
+      "category": "Microphones",
+      "brand": "HyperX",
+      "image": [
+        "https://ar-media.hptiendaenlinea.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/P/4P5P7AA-1_T1679637201.png",
+        "https://ar-media.hptiendaenlinea.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/P/4P5P7AA-2_T1679637202.png",
+        "https://ar-media.hptiendaenlinea.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/P/4P5P7AA-4_T1679637205.png",
+        "https://ar-media.hptiendaenlinea.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/P/4P5P7AA-6_T1679637207.png"
+      ],
+      "threeDi": true,
+      "price": 79.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono de Solapa ProSound",
+      "description": "El Micrófono de Solapa ProSound es ideal para entrevistas y grabaciones en movimiento. Con su diseño compacto y clips de sujeción, captura audio nítido dondequiera que vayas.",
+      "category": "Microphones",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/nrw7Juo.png"],
+      "threeDi": false,
+      "price": 59.99,
+      "rating": [4, 4, 2],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono de Estudio MasterClass",
+      "description": "El Micrófono de Estudio MasterClass es una elección premium para grabaciones de alta fidelidad. Su diseño de condensador y diafragma grande garantizan una calidad de sonido excepcional.",
+      "category": "Microphones",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/fA8t8CT.png"],
+      "threeDi": false,
+      "price": 249,
+      "rating": [4, 5, 4],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono Lavalier MiniClip",
+      "description": "El Micrófono Lavalier MiniClip es perfecto para presentaciones y videos. Con su discreto diseño y clip de sujeción, proporciona un audio claro y sin interferencias.",
+      "category": "Microphones",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/1rVL0Ai.png"],
+      "threeDi": false,
+      "price": 49,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono USB Portátil GoMic",
+      "description": "El Micrófono USB Portátil GoMic es compacto y versátil. Llévalo contigo donde quieras y disfruta de una calidad de audio excepcional en tus grabaciones y videoconferencias.",
+      "category": "Microphones",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/IIpJDVP.png"],
+      "threeDi": false,
+      "price": 69,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Micrófono de Escenario ProVoice",
+      "description": "El Micrófono de Escenario ProVoice es resistente y confiable para actuaciones en vivo. Su diseño robusto y respuesta de frecuencia equilibrada aseguran un rendimiento excepcional en el escenario.",
+      "category": "Microphones",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/7yN67Hv.png"],
+      "threeDi": false,
+      "price": 149.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Polaris MM800",
+      "description": "Micro-textured low friction surface ensures fast and accurate pixel tracking. Non-slip rubber base- 1-8 M braided cable and durable construction.",
+      "category": "Mousepads",
+      "brand": "Corsair",
+      "image": [
+        "https://www.qloud.ar/SITES/IMG/joy-div-computers-09-2021/236_14-10-2022-02-10-16-mouse-pad-corsair-mm800-365x260mm-polaris-rgb-gaming-3.png",
+        "https://www.qloud.ar/SITES/IMG/joy-div-computers-09-2021/236_14-10-2022-02-10-16-mouse-pad-corsair-mm800-365x260mm-polaris-rgb-gaming-2.png",
+        "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024/products/Gaming-Mousepads/CH-9440020-NA/Gallery/MM800_04.webp",
+        "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024/products/Gaming-Mousepads/CH-9440020-NA/Gallery/MM800_05.webp"
+      ],
+      "threeDi": true,
+      "price": 19.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad Creativo Artistico",
+      "description": "El Mousepad Creativo Artístico es perfecto para creativos y diseñadores. Su diseño único y superficie de alta calidad hacen que sea ideal para trabajos de diseño y edición de fotos.",
+      "category": "Mousepads",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/UPB1zgu.png"],
+      "threeDi": false,
+      "price": 14.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad Ergonómico Con Reposamuñecas",
+      "description": "El Mousepad Ergonómico con Reposamuñecas proporciona comodidad durante horas de uso. Su almohadilla de gel y diseño ergonómico reducen la fatiga en la muñeca y mejoran la productividad.",
+      "category": "Mousepads",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/2g6Z2pg.png"],
+      "threeDi": false,
+      "price": 24.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad Ultrafino Premium",
+      "description": "El Mousepad Ultrafino Premium ofrece un diseño elegante y minimalista. Su perfil delgado lo hace ideal para espacios de trabajo organizados y proporciona un control preciso del ratón.",
+      "category": "Mousepads",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/YU2FqTs.png"],
+      "threeDi": false,
+      "price": 9.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad XXL para Juegos",
+      "description": "El Mousepad XXL para Juegos es perfecto para jugadores que necesitan espacio. Con un gran tamaño, puedes disfrutar de una superficie uniforme para movimientos suaves y precisos del ratón.",
+      "category": "Mousepads",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/q7N6euu.png"],
+      "threeDi": false,
+      "price": 29.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad de Cuero de Lujo",
+      "description": "El Mousepad de Cuero de Lujo agrega un toque de elegancia a tu escritorio. Confeccionado con cuero de alta calidad, combina estilo y funcionalidad para una experiencia de usuario excepcional.",
+      "category": "Mousepads",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/2RzBRJc.png"],
+      "threeDi": false,
+      "price": 39.99,
+      "rating": [4, 5, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad con Iluminación LED RGB",
+      "description": "El Mousepad con Iluminación LED RGB añade un toque de estilo a tu configuración de juego. Con opciones de iluminación personalizables, transforma tu espacio de juego en una experiencia inmersiva.",
+      "category": "Mousepads",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/Q0XNW6r.png"],
+      "threeDi": false,
+      "price": 34.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad de Diseño Floral",
+      "description": "El Mousepad de Diseño Floral agrega un toque de belleza a tu escritorio. Con un patrón floral elegante, combina estilo y funcionalidad para una experiencia de usuario excepcional.",
+      "category": "Mousepads",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/PjTXbt9.png"],
+      "threeDi": false,
+      "price": 17.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad con Soporte para Teléfono",
+      "description": "El Mousepad con Soporte para Teléfono es ideal para mantener tu teléfono a mano mientras trabajas. Su diseño multifuncional lo convierte en una herramienta esencial para la productividad.",
+      "category": "Mousepads",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/2TMO3F3.png"],
+      "threeDi": false,
+      "price": 22.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Mousepad de Tamaño Compacto",
+      "description": "El Mousepad de Tamaño Compacto es perfecto para espacios de trabajo limitados. A pesar de su tamaño reducido, proporciona un control preciso para tus tareas diarias.",
+      "category": "Mousepads",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/5m8bF70.png"],
+      "threeDi": false,
+      "price": 7.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico Gamer Pro",
+      "description": "El Teclado Mecánico Gamer Pro es la elección definitiva para jugadores profesionales. Con interruptores mecánicos de alta calidad y retroiluminación RGB personalizable, obtendrás una ventaja competitiva en cada partida.",
+      "category": "Keyboards",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/qgIygel.png"],
+      "threeDi": false,
+      "price": 129.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "G413 SE MECHANICAL",
+      "description": "From tactile mechanical switches to 6-key rollover anti-ghosting and PBT keycaps—the full-size G413 SE keyboard has the performance and durability required to compete.",
+      "category": "Keyboards",
+      "brand": "HyperX",
+      "image": [
+        "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g413-se/g413-se-gallery-1-new.png",
+        "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g413-se/g413-se-gallery-3-new.png",
+        "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g413-se/g413-se-gallery-2-new.png",
+        "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g413-se/g413-se-gallery-5-new.png"
+      ],
+      "threeDi": true,
+      "price": 89.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico RGB Luminoso",
+      "description": "El Teclado Mecánico RGB Luminoso es una obra maestra de iluminación y rendimiento. Personaliza los efectos de iluminación y disfruta de una escritura suave y precisa con interruptores mecánicos.",
+      "category": "Keyboards",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/8tfqIen.png"],
+      "threeDi": false,
+      "price": 159.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico de Alta Velocidad",
+      "description": "El Teclado Mecánico de Alta Velocidad está diseñado para usuarios que necesitan respuestas rápidas. Con interruptores de actuación rápida, es perfecto para juegos de alta velocidad y escritura eficiente.",
+      "category": "Keyboards",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/xWW1EBv.png"],
+      "threeDi": false,
+      "price": 119.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico Retro Compacto",
+      "description": "El Teclado Mecánico Retro Compacto combina estilo vintage con tecnología moderna. Con un diseño compacto y teclas tipo máquina de escribir, es una joya para entusiastas de la escritura.",
+      "category": "Keyboards",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/0cwoDfq.png"],
+      "threeDi": false,
+      "price": 99.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico Silencioso",
+      "description": "El Teclado Mecánico Silencioso es perfecto para oficinas y entornos tranquilos. Ofrece una experiencia de escritura suave con interruptores silenciosos sin sacrificar la calidad.",
+      "category": "Keyboards",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/U89KcCF.png"],
+      "threeDi": false,
+      "price": 109.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico con Reposamuñecas",
+      "description": "El Teclado Mecánico con Reposamuñecas brinda comodidad durante largas sesiones de trabajo. Su almohadilla ergonómica permite una escritura sin fatiga y máxima productividad.",
+      "category": "Keyboards",
+      "brand": "Asus",
+      "image": ["https://i.imgur.com/FSMcoKS.png"],
+      "threeDi": false,
+      "price": 129.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico RGB Compacto",
+      "description": "El Teclado Mecánico RGB Compacto es una combinación de estilo y rendimiento. Con interruptores mecánicos y retroiluminación personalizable, es perfecto para usuarios exigentes.",
+      "category": "Keyboards",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/WIAbBh6.png"],
+      "threeDi": false,
+      "price": 139.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico Retroiluminado",
+      "description": "El Teclado Mecánico Retroiluminado ofrece un aspecto elegante y moderno. Su retroiluminación LED ajustable permite una experiencia de escritura nocturna sin esfuerzo.",
+      "category": "Keyboards",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/C1ja3qn.png"],
+      "threeDi": false,
+      "price": 109.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Teclado Mecánico Compacto Sin Fricción",
+      "description": "El Teclado Mecánico Compacto Sin Fricción ofrece una experiencia de escritura suave y sin esfuerzo. Sus interruptores de baja fricción permiten una escritura rápida y precisa.",
+      "category": "Keyboards",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/xL9X3Hk.png"],
+      "threeDi": false,
+      "price": 119.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Jabra Elite 5",
+      "description": "On the street, on the bus or in the office, always have your Jabra headphones at hand and escape from your daily routine for a while! You will be able to enjoy your favorite music whenever and wherever you want.",
+      "category": "Earbuds",
+      "brand": "Logitech",
+      "image": [
+        "https://assets2.jabra.com/e/0/3/1/e031ab55ac980bf1f7f3884764d499b198766ceb_elite_5_beige_00.png",
+        "https://assets2.jabra.com/9/b/a/b/9bab68d8b617e7a1f3bdf02ebab76141361086bf_elite_5_beige_01.png",
+        "https://assets2.jabra.com/1/5/d/a/15da73be0e786e4db0f822e51c606f176681916b_elite_5_beige_02.png",
+        "https://assets2.jabra.com/0/0/e/c/00ec0d41b7fdba6ed435d6cad7d7d15a382b93c7_elite_5_beige_03.png"
+      ],
+      "threeDi": true,
+      "price": 49.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos AirTunes Pro",
+      "description": "Los Auriculares Inalámbricos AirTunes Pro ofrecen una experiencia auditiva premium. Con cancelación de ruido y sonido de alta fidelidad, te sumergirás en la música como nunca antes.",
+      "category": "Earbuds",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/2HAQX4J.png"],
+      "threeDi": false,
+      "price": 129.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos Deportivos FitBeat",
+      "description": "Los Auriculares Inalámbricos Deportivos FitBeat son ideales para tus entrenamientos. Son resistentes al agua y ofrecen un ajuste cómodo y seguro durante tus actividades físicas.",
+      "category": "Earbuds",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/598dJP9.png"],
+      "threeDi": false,
+      "price": 59.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos EchoPods",
+      "description": "Los Auriculares Inalámbricos EchoPods son compactos y elegantes. Con emparejamiento instantáneo y estuche de carga, son perfectos para la vida en movimiento.",
+      "category": "Earbuds",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/P5yqWf5.png"],
+      "threeDi": false,
+      "price": 39.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos BassXtreme",
+      "description": "Los Auriculares Inalámbricos BassXtreme ofrecen graves profundos y un diseño elegante. Son ideales para los amantes de la música que buscan un sonido envolvente.",
+      "category": "Earbuds",
+      "brand": "Asus",
+      "image": ["https://i.imgur.com/GTJk2Fx.png"],
+      "threeDi": false,
+      "price": 69.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos SoundMate",
+      "description": "Los Auriculares Inalámbricos SoundMate son versátiles y asequibles. Con un sonido claro y diseño ergonómico, son perfectos para uso diario.",
+      "category": "Earbuds",
+      "brand": "Asus",
+      "image": ["https://i.imgur.com/WHso6ZC.png"],
+      "threeDi": false,
+      "price": 29.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos con Estuche de Carga",
+      "description": "Los Auriculares Inalámbricos con Estuche de Carga ofrecen una duración de batería excepcional. Con un estuche de carga compacto, estarás listo para escuchar música todo el día.",
+      "category": "Earbuds",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/6yfnUVB.png"],
+      "threeDi": false,
+      "price": 79.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos con Cancelación de Ruido",
+      "description": "Los Auriculares Inalámbricos con Cancelación de Ruido ofrecen tranquilidad en entornos ruidosos. Disfruta de tu música sin distracciones con esta tecnología avanzada.",
+      "category": "Earbuds",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/5iWFQIa.png"],
+      "threeDi": false,
+      "price": 99.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos Deportivos ProFit",
+      "description": "Los Auriculares Inalámbricos Deportivos ProFit son ideales para atletas. Con ajuste seguro y resistencia al sudor, te mantendrán motivado durante tus entrenamientos.",
+      "category": "Earbuds",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/Rg26lhE.png"],
+      "threeDi": false,
+      "price": 49.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Auriculares Inalámbricos Hi-Fi Premium",
+      "description": "Los Auriculares Inalámbricos Hi-Fi Premium ofrecen una calidad de sonido excepcional. Sumérgete en la música con sonido de alta fidelidad y comodidad duradera.",
+      "category": "Earbuds",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/2zyNGYV.png"],
+      "threeDi": false,
+      "price": 149.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora PrecisionX",
+      "description": "El Ratón de Computadora PrecisionX es perfecto para tareas precisas. Con sensor óptico de alta precisión y diseño ergonómico, te brinda un control excepcional.",
+      "category": "Mice",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/mRdzmwC.png"],
+      "threeDi": false,
+      "price": 29.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora Gamer Elite",
+      "description": "El Ratón de Computadora Gamer Elite está diseñado para jugadores profesionales. Con botones programables y luces RGB personalizables, mejora tu experiencia de juego.",
+      "category": "Mice",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/gnlFiwX.png"],
+      "threeDi": false,
+      "price": 49.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora Ergonómico ProFit",
+      "description": "El Ratón de Computadora Ergonómico ProFit es ideal para largas horas de trabajo. Su diseño ergonómico y ajuste cómodo reducen la fatiga en la mano.",
+      "category": "Mice",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/uUoNJDn.png"],
+      "threeDi": false,
+      "price": 39.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora Compacto MiniMouse",
+      "description": "El Ratón de Computadora Compacto MiniMouse es perfecto para viajes. Su diseño pequeño y ligero lo hace ideal para trabajar en movimiento.",
+      "category": "Mice",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/2FO6mS7.png"],
+      "threeDi": false,
+      "price": 19.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora Avanzado TurboClick",
+      "description": "El Ratón de Computadora Avanzado TurboClick ofrece un rendimiento rápido y preciso. Con un sensor de alta velocidad, es perfecto para usuarios exigentes.",
+      "category": "Mice",
+      "brand": "Logitech",
+      "image": ["https://i.imgur.com/4vTTjiV.png"],
+      "threeDi": false,
+      "price": 34.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "MX MASTER 2S",
+      "description": "MX Master 2S offers Logitech Flow for seamless cross-computer control, advanced scrolling, high precision tracking on all surfaces and a stunning design.",
+      "category": "Mice",
+      "brand": "Logitech",
+      "image": [
+        "https://assets.logitech.com/assets/65106/2/mx-master-2s.png",
+        "https://assets.logitech.com/assets/65106/mx-master-2s.png",
+        "https://assets.logitech.com/assets/65106/3/mx-master-2s.png",
+        "https://assets.logitech.com/assets/65106/5/mx-master-2s.png"
+      ],
+      "threeDi": true,
+      "price": 24.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora con Botones Programables",
+      "description": "El Ratón de Computadora con Botones Programables te permite personalizar tu experiencia. Asigna funciones específicas a los botones para una mayor productividad.",
+      "category": "Mice",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/c3ueZH5.png"],
+      "threeDi": false,
+      "price": 29.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora ErgoGrip",
+      "description": "El Ratón de Computadora ErgoGrip está diseñado para adaptarse a tu mano. Su forma ergonómica reduce la tensión y mejora la comodidad durante horas de uso.",
+      "category": "Mice",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/RdwnTcv.png"],
+      "threeDi": false,
+      "price": 34.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora de Alta Velocidad TurboScroll",
+      "description": "El Ratón de Computadora de Alta Velocidad TurboScroll es perfecto para desplazamientos rápidos. Su rueda de desplazamiento rápida facilita la navegación.",
+      "category": "Mice",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/nVVkD0X.png"],
+      "threeDi": false,
+      "price": 27.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Ratón de Computadora para Diseñadores Creativos",
+      "description": "El Ratón de Computadora para Diseñadores Creativos es preciso y versátil. Con botones personalizables y sensor de alta resolución, es una herramienta esencial para diseñadores.",
+      "category": "Mice",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/nFvOpbm.png"],
+      "threeDi": false,
+      "price": 59.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos ProGamer X1",
+      "description": "El Control de Videojuegos ProGamer X1 es la elección definitiva para jugadores profesionales. Con botones programables y diseño ergonómico, te brinda un control excepcional en tus partidas.",
+      "category": "Controllers",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/yjXAMiK.png"],
+      "threeDi": false,
+      "price": 49.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos Inalámbrico Elite",
+      "description": "El Control de Videojuegos Inalámbrico Elite ofrece una experiencia de juego premium. Con conectividad Bluetooth y botones personalizables, mejora tu rendimiento en juegos.",
+      "category": "Controllers",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/UUFFc7e.png"],
+      "threeDi": false,
+      "price": 69.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos Retro Classic",
+      "description": "El Control de Videojuegos Retro Classic combina nostalgia con modernidad. Con un diseño clásico y conectividad USB, es perfecto para jugadores retro.",
+      "category": "Controllers",
+      "brand": "HyperX",
+      "image": ["https://i.imgur.com/JKnYMs7.png"],
+      "threeDi": false,
+      "price": 39.99,
+      "rating": [5, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Elite Series 2",
+      "description": "Adapt the controller to your preferred play style with the new interchangeable stick and joystick shapes. Save up to 3 custom profiles on the controller and switch between them on the fly with the Profile button.",
+      "category": "Controllers",
+      "brand": "Corsair",
+      "image": ["https://i.postimg.cc/sXr57h5t/k8oanfgbritqfaw84k5u.png","https://i.postimg.cc/1trwH3H4/mdkeygbagau2yzi2x55l.png","https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2XRHc?ver=3e8f","https://i.postimg.cc/3wpgkB0X/ofuniuvbw4gm8zzcagsy.png"],
+      "threeDi": true,
+      "price": 29.99,
+      "rating": [4, 4, 5],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos con Vibración RumbleX",
+      "description": "El Control de Videojuegos con Vibración RumbleX ofrece una experiencia de juego inmersiva. Siente la acción con su función de vibración y controles precisos.",
+      "category": "Controllers",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/NP5MDF6.png"],
+      "threeDi": false,
+      "price": 59.99,
+      "rating": [4, 2, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos ProMotion",
+      "description": "El Control de Videojuegos ProMotion es perfecto para juegos de alta velocidad. Con botones de respuesta rápida y diseño ergonómico, ofrece un control excepcional.",
+      "category": "Controllers",
+      "brand": "Corsair",
+      "image": ["https://i.imgur.com/L8RfZKg.png"],
+      "threeDi": false,
+      "price": 54.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos Retro con Cable",
+      "description": "El Control de Videojuegos Retro con Cable es una opción clásica y económica. Con cable USB, es compatible con una variedad de dispositivos y emuladores.",
+      "category": "Controllers",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/x7JMV8B.png"],
+      "threeDi": false,
+      "price": 24.99,
+      "rating": [3, 2, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos Profesional TurboFire",
+      "description": "El Control de Videojuegos Profesional TurboFire está diseñado para jugadores exigentes. Con disparadores de respuesta rápida y diseño ergonómico, maximiza tu rendimiento.",
+      "category": "Controllers",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/mSBTaTl.png"],
+      "threeDi": false,
+      "price": 59.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos con Iluminación LED RGB",
+      "description": "El Control de Videojuegos con Iluminación LED RGB añade estilo a tu experiencia de juego. Personaliza la iluminación y disfruta de un control preciso.",
+      "category": "Controllers",
+      "brand": "Razer",
+      "image": ["https://i.imgur.com/hHf0WYY.png"],
+      "threeDi": false,
+      "price": 44.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    },
+    {
+      "name": "Control de Videojuegos Inalámbrico TurboPro",
+      "description": "El Control de Videojuegos Inalámbrico TurboPro ofrece libertad de movimiento. Con conectividad Bluetooth y batería de larga duración, es perfecto para juegos sin cables.",
+      "category": "Controllers",
+      "brand": "Aorus",
+      "image": ["https://i.imgur.com/Caa0kkj.png"],
+      "threeDi": false,
+      "price": 49.99,
+      "rating": [4, 4, 4],
+      "stock": 255
+    }
+  ],
+  "users": [
+    {
+      "name": "Mauricio Villanueva",
+      "username": "MACUMBAMAN",
+      "password": "133105",
+      "photo": "https://cdna.artstation.com/p/assets/images/images/063/456/726/large/matheus-lima-luffy-icon-mugiwara.jpg?1685561501",
+      "email": "mauriciovillanueva@neogn.com",
+      "address": "25 Grand Bourg",
+      "isAdmin": true
+    },
+    {
+      "name": "Matías Tenerife",
+      "username": "tenerife01",
+      "password": "3333333333333*",
+      "photo": "https://cdna.artstation.com/p/assets/images/images/063/456/844/large/matheus-lima-ace-icon-one-piece.jpg?1685561698",
+      "email": "mati_tenerife01@hotmail.com",
+      "address": "74 Tres Cerritos"
+    },
+    {
+      "name": "Elías Villegas",
+      "username": "futbolmessi223",
+      "password": "intermiamicampeon88*",
+      "photo": "https://cdna.artstation.com/p/assets/images/images/063/456/730/large/matheus-lima-nami-icon-mugiwara.jpg?1685561512",
+      "email": "elivillegas5@hotmail.com",
+      "address": "05 San Lorenzo"
+    },
+    {
+      "name": "Monkey D Luffy",
+      "username": "futbolmessi22",
+      "password": "intermiamicampeon88*",
+      "photo": "https://i.pinimg.com/originals/00/8b/7c/008b7c4df7f76c54008b3fb527b3722c.jpg",
+      "email": "eliville9gas5@hotmail.com",
+      "address": "05 San Lorenzo"
+    },
+    {
+      "name": "Ronoroa Zoro",
+      "username": "futbolmessi3",
+      "password": "intermiamicampeon88*",
+      "photo": "https://pbs.twimg.com/media/EowtfHeW8AEEMtM.jpg",
+      "email": "elivilleg7as5@hotmail.com",
+      "address": "05 San Lorenzo"
+    },
+    {
+      "name": "Vinsmoke Sanji",
+      "username": "futbolmei223",
+      "password": "intermiamicampeon88*",
+      "photo": "https://i.pinimg.com/736x/9c/c1/65/9cc165cfd4e7e4824f8645dc06bfb15b.jpg",
+      "email": "eliville5gas5@hotmail.com",
+      "address": "05 San Lorenzo"
+    },
+    {
+      "name": "Portgas D Ace",
+      "username": "futboessi223",
+      "password": "intermiamicampeon88*",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpmraBS0gnLZbafwu8wuwG6gwp821--YmyNg&usqp=CAU",
+      "email": "elivill4egas5@hotmail.com",
+      "address": "05 San Lorenzo"
+    }
+  ]
+}
