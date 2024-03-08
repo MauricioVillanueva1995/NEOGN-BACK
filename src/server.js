@@ -35,7 +35,22 @@ server.use(
   helmet.contentSecurityPolicy({
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "https://http2.mlstatic.com"],
+      scriptSrc: [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "https://http2.mlstatic.com",
+      ],
+    },
+  })
+);
+
+server.use(
+  express.static("public", {
+    setHeaders: (res, path, stat) => {
+      if (path.endsWith(".webp")) {
+        res.set("Content-Type", "image/webp");
+      }
     },
   })
 );
