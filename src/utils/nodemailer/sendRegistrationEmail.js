@@ -98,7 +98,7 @@ const sendRegistrationEmail = async (clientId) => {
             <p class="message">If you have any questions or need help, don't hesitate to contact us.</p>
             <p class="message">¡We hope you enjoy all the benefits we have to offer.!</p>
             <p class="message">Click the button below to start exploring our site:</p>
-            <a class="cta-button" href="https://neogn-front.up.railway.app/">Visit NEOGN</a>
+            <a class="cta-button" href="https://neogn-front.onrender.com/">Visit NEOGN</a>
         </div>
         <div class="footer">
             <p>© 2023 NEOGN. All rights reserved.</p>

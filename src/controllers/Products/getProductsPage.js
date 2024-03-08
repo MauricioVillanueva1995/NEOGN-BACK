@@ -34,10 +34,10 @@ const getProductsPage = async (page, products) => {
       count: allProducts.length,
       pages: Math.ceil(allProducts.length / 10),
       next: next
-        ? `https://neogn-backend.up.railway.app/api/products?page=${next}`
+        ? `https://neogn-back-584v.onrender.com/api/products?page=${next}`
         : next,
       prev: prev
-        ? `https://neogn-backend.up.railway.app/api/products?page=${prev}`
+        ? `https://neogn-back-584v.onrender.com/api/products?page=${prev}`
         : prev,
     },
     results: currentProducts,

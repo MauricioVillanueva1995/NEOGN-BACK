@@ -1,4 +1,3 @@
-const { User } = require("../../db");
 const mercadopago = require("mercadopago");
 
 const { DB_URL, URL_PRODUCTION , URL_LOCAL } = process.env;
