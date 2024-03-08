@@ -10,7 +10,7 @@ const server = express();
 server.use(function (req, res, next) {
   // res.header("Access-Control-Allow-Origin", "*");
   const allowedOrigins = [
-    "http://localhost:3000",
+    "http://localhost:5173/",
     "http://neogn-front.onrender.com/",
     "https://neogn-front.onrender.com/",
   ];
@@ -54,6 +54,7 @@ server.use(
     },
   })
 );
+
 server.use(express.urlencoded({ extended: true }));
 server.use(morgan("dev"));
 server.use(express.json());
