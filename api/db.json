@@ -157,22 +157,27 @@
       "rating": [5, 3, 4]
     },
     {
-      "name": "SonicWave Pro b",
-      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro b. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "name": "HyperX Cloud Alpha - Wireless Gaming Headset",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro d. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
       "category": "Headsets",
       "brand": "HyperX",
-      "image": ["https://i.imgur.com/7VmJ1yi.png"],
+      "image": [
+        "https://i.postimg.cc/hPpq7jNs/hyperx-cloud-alpha-wireless-2-ma.png",
+        "https://i.postimg.cc/FHzXbv44/hyperx-cloud-alpha-wireless-4-fr-Photoroom-png-Photoroom.png",
+        "https://i.postimg.cc/m2bsDMph/hyperx-cloud-alpha-wireless-3-si.png",
+        "https://i.postimg.cc/sgLdwLjZ/hyperx-cloud-alpha-wireless-5-bo.png"
+      ],
       "threeDi": false,
       "price": 33,
       "rating": [5, 3, 4],
       "stock": 255
     },
     {
-      "name": "SonicWave Pro d",
-      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro d. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
+      "name": "SonicWave Pro b",
+      "description": "Sumérgete en el mundo de la música, los juegos y las llamadas con los Auriculares SonicWave Pro b. Estos auriculares inalámbricos de última generación ofrecen una calidad de sonido excepcional y una comodidad incomparable.",
       "category": "Headsets",
       "brand": "Logitech",
-      "image": ["https://i.imgur.com/lQg0zDM.png"],
+      "image": ["https://i.imgur.com/7VmJ1yi.png"],
       "threeDi": false,
       "price": 33,
       "rating": [5, 3, 4],
@@ -814,11 +819,16 @@
       "stock": 255
     },
     {
-      "name": "Control de Videojuegos Inalámbrico Elite",
+      "name": "HyperX Clutch - Wireless Gaming Controller",
       "description": "El Control de Videojuegos Inalámbrico Elite ofrece una experiencia de juego premium. Con conectividad Bluetooth y botones personalizables, mejora tu rendimiento en juegos.",
       "category": "Controllers",
       "brand": "HyperX",
-      "image": ["https://i.imgur.com/UUFFc7e.png"],
+      "image": [
+        "https://i.postimg.cc/286CGhQM/hyperx-clutch-wireless-gaming-co-Photoroom-png-Photoroom.png",
+        "https://i.postimg.cc/tRDXF2xF/hyperx-clutch-wireless-gaming-c2o-Photoroom-png-Photoroom.png",
+        "https://i.postimg.cc/SRQkwzwX/hyperx-clutch-wireless-gamin3g-co-Photoroom-png-Photoroom.png",
+        "https://i.postimg.cc/Bbh4sn0m/hyperx-clut4ch-wireless-gaming-co-Photoroom-png-Photoroom.png"
+      ],
       "threeDi": false,
       "price": 69.99,
       "rating": [4, 4, 4],
@@ -840,7 +850,12 @@
       "description": "Adapt the controller to your preferred play style with the new interchangeable stick and joystick shapes. Save up to 3 custom profiles on the controller and switch between them on the fly with the Profile button.",
       "category": "Controllers",
       "brand": "Corsair",
-      "image": ["https://i.postimg.cc/sXr57h5t/k8oanfgbritqfaw84k5u.png","https://i.postimg.cc/1trwH3H4/mdkeygbagau2yzi2x55l.png","https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2XRHc?ver=3e8f","https://i.postimg.cc/3wpgkB0X/ofuniuvbw4gm8zzcagsy.png"],
+      "image": [
+        "https://i.postimg.cc/sXr57h5t/k8oanfgbritqfaw84k5u.png",
+        "https://i.postimg.cc/1trwH3H4/mdkeygbagau2yzi2x55l.png",
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2XRHc?ver=3e8f",
+        "https://i.postimg.cc/3wpgkB0X/ofuniuvbw4gm8zzcagsy.png"
+      ],
       "threeDi": true,
       "price": 29.99,
       "rating": [4, 4, 5],
