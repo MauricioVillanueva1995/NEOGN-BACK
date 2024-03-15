@@ -52,7 +52,7 @@ const receiveWebHook = async (req, res) => {
     console.log("body merchant order", body);
     var paidAmount = 0;
 
-    if (body.status === "approved") {
+    if (payment.body.status === "approved") {
       paidAmount += payment.transaction_amount;
     }
 
