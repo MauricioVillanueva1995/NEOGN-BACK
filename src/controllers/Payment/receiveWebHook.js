@@ -59,7 +59,7 @@ const receiveWebHook = async (req, res) => {
     var paidAmount = 0;
 
     if (payment.body.status === "approved") {
-      paidAmount += payment.transaction_amount;
+      paidAmount += payment.body.transaction_amount;
     }
 
     if (paidAmount >= body.total_amount) {
