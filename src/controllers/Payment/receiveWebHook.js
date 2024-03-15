@@ -50,13 +50,12 @@ const receiveWebHook = async (req, res) => {
     }
 
     console.log("body merchant order", body);
-    console.log("body payments", body.payments);
     var paidAmount = 0;
-    body.payments.forEach((payment) => {
-      if (payment.status === "approved") {
-        paidAmount += payment.transaction_amount;
-      }
-    });
+
+    if (body.status === "approved") {
+      paidAmount += payment.transaction_amount;
+    }
+
     if (paidAmount >= body.total_amount) {
       console.log("El pago se completó 😄");
       try {
