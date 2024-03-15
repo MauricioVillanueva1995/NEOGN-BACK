@@ -50,8 +50,7 @@ const receiveWebHook = async (req, res) => {
     }
 
     console.log("body merchant order", body);
-    console.log(`Payment status ${payment.status}`);
-
+    console.log("body payments", body.payments);
     var paidAmount = 0;
     body.payments.forEach((payment) => {
       if (payment.status === "approved") {
@@ -62,17 +61,14 @@ const receiveWebHook = async (req, res) => {
       console.log("El pago se completó 😄");
       try {
         if (params.userId && params.userId.trim() !== "") {
-          const createUserResponse = await axios.post(
-            `${DB_URL}/api/orders`,
-            {
-              userId: params.userId,
-              paymentId: requestId,
-              status: body.order_status,
-              total: body.paid_amount,
-              products: body.items,
-              preferenceId: body.preference_id,
-            }
-          );
+          const createUserResponse = await axios.post(`${DB_URL}/api/orders`, {
+            userId: params.userId,
+            paymentId: requestId,
+            status: body.order_status,
+            total: body.paid_amount,
+            products: body.items,
+            preferenceId: body.preference_id,
+          });
           if (createUserResponse.status === 200) {
             console.log("Order Created");
           }
