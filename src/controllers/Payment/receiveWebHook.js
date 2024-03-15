@@ -50,6 +50,7 @@ const receiveWebHook = async (req, res) => {
     }
 
     console.log("body merchant order", body);
+    console.log(`Payment status ${payment.status}`);
 
     var paidAmount = 0;
     body.payments.forEach((payment) => {
