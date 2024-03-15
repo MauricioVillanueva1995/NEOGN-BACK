@@ -30,11 +30,15 @@ const receiveWebHook = async (req, res) => {
 
     processedRequests.add(requestId);
 
+    let payment;
+
     switch (topic) {
       case "payment":
         const paymentId = requestId;
         console.log(topic, "getting payment", paymentId);
-        let payment = await mercadopago.payment.findById(paymentId);
+
+        payment = await mercadopago.payment.findById(paymentId);
+
         console.log("payment.body", payment.body);
         console.log("payment status", payment.body.status);
 
@@ -49,8 +53,9 @@ const receiveWebHook = async (req, res) => {
         var { body } = await mercadopago.merchant_orders.findById(orderId);
         break;
     }
-
+    console.log("payment status outside the block", payment.body.status);
     console.log("body merchant order", body);
+
     var paidAmount = 0;
 
     if (payment.body.status === "approved") {
