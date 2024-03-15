@@ -36,7 +36,7 @@ const receiveWebHook = async (req, res) => {
         console.log(topic, "getting payment", paymentId);
         let payment = await mercadopago.payment.findById(paymentId);
         console.log("payment.body", payment.body);
-        
+        console.log("payment status", payment.body.status);
 
         var { body } = await mercadopago.merchant_orders.findById(
           payment.body.order.id
@@ -49,8 +49,7 @@ const receiveWebHook = async (req, res) => {
         var { body } = await mercadopago.merchant_orders.findById(orderId);
         break;
     }
-    
-    console.log("payment status", payment.body.status);
+
     console.log("body merchant order", body);
     var paidAmount = 0;
 
