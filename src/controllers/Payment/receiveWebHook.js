@@ -70,7 +70,7 @@ const receiveWebHook = async (req, res) => {
             userId: params.userId,
             paymentId: requestId,
             status: body.order_status,
-            total: body.paid_amount,
+            total: body.total_amount,
             products: body.items,
             preferenceId: body.preference_id,
           });
