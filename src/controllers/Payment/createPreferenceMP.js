@@ -7,7 +7,7 @@ const createPreference = async (req, res) => {
 
     const { items, transaction_amount, userId } = req.body;
     console.log('USER:',userId);
-    console.log(items);
+    console.log('ITEMS',items);
     let preference = {
       transaction_amount,
       items,
