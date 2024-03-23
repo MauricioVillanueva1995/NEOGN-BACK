@@ -56,7 +56,7 @@ const receiveWebHook = async (req, res) => {
         console.log("body merchant_order",body);
         break;
     }
-    // console.log("payment status outside the block", payment.body.status);
+    console.log("payment status outside the block", payment);
     console.log("body merchant order", body);
 
     var paidAmount = 0;
