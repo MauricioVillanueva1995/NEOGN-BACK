@@ -21,13 +21,13 @@ const receiveWebHook = async (req, res) => {
 
     const requestId = query.id || query["data.id"];
 
-    // if (processedRequests.has(requestId)) {
-    //   console.log(
-    //     `Solicitud duplicada recibida con ID: ${requestId}. Ignorando.`
-    //   );
-    //   res.send();
-    //   return;
-    // }
+    if (processedRequests.has(requestId)) {
+      console.log(
+        `Solicitud duplicada recibida con ID: ${requestId}. Ignorando.`
+      );
+      res.send();
+      return;
+    }
 
     processedRequests.add(requestId);
 
@@ -56,7 +56,7 @@ const receiveWebHook = async (req, res) => {
         console.log("body merchant_order",body);
         break;
     }
-    console.log("payment status outside the block", payment.body.status);
+    // console.log("payment status outside the block", payment.body.status);
     console.log("body merchant order", body);
 
     var paidAmount = 0;
