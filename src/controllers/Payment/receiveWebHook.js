@@ -21,13 +21,13 @@ const receiveWebHook = async (req, res) => {
 
     const requestId = query.id || query["data.id"];
 
-    if (processedRequests.has(requestId)) {
-      console.log(
-        `Solicitud duplicada recibida con ID: ${requestId}. Ignorando.`
-      );
-      res.send();
-      return;
-    }
+    // if (processedRequests.has(requestId)) {
+    //   console.log(
+    //     `Solicitud duplicada recibida con ID: ${requestId}. Ignorando.`
+    //   );
+    //   res.send();
+    //   return;
+    // }
 
     processedRequests.add(requestId);
 
