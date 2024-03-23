@@ -52,6 +52,8 @@ const receiveWebHook = async (req, res) => {
         const orderId = requestId;
         console.log(topic, "getting merchant order", orderId);
         var { body } = await mercadopago.merchant_orders.findById(orderId);
+        
+        console.log("body merchant_order",body);
         break;
     }
     console.log("payment status outside the block", payment.body.status);
