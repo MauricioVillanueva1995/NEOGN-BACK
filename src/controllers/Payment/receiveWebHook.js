@@ -8,6 +8,7 @@ const { DB_URL } = process.env;
 const processedRequests = new Set();
 
 const receiveWebHook = async (req, res) => {
+
   try {
     const { query } = req;
     const { params } = req;
@@ -16,7 +17,7 @@ const receiveWebHook = async (req, res) => {
 
     const topic = query.topic || query.type;
 
-    console.log({ topic });
+    console.log("topic", { topic });
 
     const requestId = query.id || query["data.id"];
 
