@@ -1,5 +1,3 @@
-// const { Order, User, Product } = require("../../db");
-// const { sendPurchaseEmail } = require("../../utils/email");
 const mercadopago = require("mercadopago");
 const axios = require("axios");
 
@@ -31,6 +29,7 @@ const receiveWebHook = async (req, res) => {
     processedRequests.add(requestId);
 
     let payment;
+    let body;
 
     switch (topic) {
       case "payment":
@@ -42,7 +41,7 @@ const receiveWebHook = async (req, res) => {
         console.log("payment.body", payment.body);
         console.log("payment status", payment.body.status);
 
-        var { body } = await mercadopago.merchant_orders.findById(
+        body = await mercadopago.merchant_orders.findById(
           payment.body.order.id
         );
         break;
@@ -50,19 +49,25 @@ const receiveWebHook = async (req, res) => {
       case "merchant_order":
         const orderId = requestId;
         console.log(topic, "getting merchant order", orderId);
-        var { body } = await mercadopago.merchant_orders.findById(orderId);
+        body = await mercadopago.merchant_orders.findById(orderId);
         break;
+
+      default:
+        console.log("El tema recibido no es válido.");
+        res.send();
+        return;
     }
-    console.log("payment status outside the block", payment.body.status);
+
+    console.log("payment status outside the block", payment?.body?.status);
     console.log("body merchant order", body);
 
     var paidAmount = 0;
 
-    if (payment.body.status === "approved") {
+    if (payment?.body?.status === "approved") {
       paidAmount += payment.body.transaction_amount;
     }
 
-    if (paidAmount >= body.total_amount) {
+    if (paidAmount >= body?.total_amount) {
       console.log("El pago se completó 😄");
       try {
         if (params.userId && params.userId.trim() !== "") {
@@ -79,7 +84,7 @@ const receiveWebHook = async (req, res) => {
           }
         }
       } catch (error) {
-        console.log("Usuario no existe");
+        console.log("Error al crear la orden:", error.message);
       }
     } else {
       console.log("El pago NO se completó 😔");
@@ -87,8 +92,8 @@ const receiveWebHook = async (req, res) => {
 
     res.send();
   } catch (error) {
+    console.log("Error en receiveWebHook:", error.message);
     res.status(500).json({ error: error.message });
-    console.log(error);
   }
 };
 
