@@ -9,11 +9,10 @@ mercadopago.configure({
 const createPreference = async (req, res) => {
 
   try {
-    const { items, total_amount, userId } = req.body;
+    const { items, userId } = req.body;
     console.log("USER:", userId);
     console.log("ITEMS", items);
     let preference = {
-      total_amount,
       items,
       back_urls: {
         success: `${URL_PRODUCTION}`,
