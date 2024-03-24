@@ -8,7 +8,6 @@ const { DB_URL } = process.env;
 const processedRequests = new Set();
 
 const receiveWebHook = async (req, res) => {
-
   try {
     const { query } = req;
     const { params } = req;
@@ -17,7 +16,7 @@ const receiveWebHook = async (req, res) => {
 
     const topic = query.topic || query.type;
 
-    console.log("topic", { topic });
+    console.log({ topic });
 
     const requestId = query.id || query["data.id"];
 
@@ -52,11 +51,9 @@ const receiveWebHook = async (req, res) => {
         const orderId = requestId;
         console.log(topic, "getting merchant order", orderId);
         var { body } = await mercadopago.merchant_orders.findById(orderId);
-        
-        console.log("body merchant_order",body);
         break;
     }
-    console.log("payment status outside the block", payment);
+    console.log("payment status outside the block", payment.body.status);
     console.log("body merchant order", body);
 
     var paidAmount = 0;
