@@ -87,8 +87,6 @@ const receiveWebHook = async (req, res) => {
       } catch (error) {
         console.log("Error al crear la orden:", error.message);
       }
-    } else {
-      console.log("El pago NO se completó 😔");
     }
 
     res.send();
