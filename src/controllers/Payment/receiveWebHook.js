@@ -50,6 +50,7 @@ const receiveWebHook = async (req, res) => {
         const orderId = requestId;
         console.log(topic, "getting merchant order", orderId);
         body = await mercadopago.merchant_orders.findById(orderId);
+        console.log("showing body", body);
         break;
 
       default:
