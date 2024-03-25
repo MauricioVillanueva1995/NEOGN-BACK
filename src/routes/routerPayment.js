@@ -6,6 +6,6 @@ const receiveWebHookMP = require("../controllers/Payment/receiveWebHook");
 const router = Router();
 
 router.post("/create-preference", createPreferenceMP);
-router.post("/webhook/:userId", receiveWebHookMP);
+router.post("/webhook", receiveWebHookMP);
 
 module.exports = router;
