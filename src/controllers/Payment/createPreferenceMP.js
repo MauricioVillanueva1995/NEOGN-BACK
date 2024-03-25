@@ -2,12 +2,12 @@ const mercadopago = require("mercadopago");
 
 const { DB_URL, URL_PRODUCTION, URL_LOCAL, MP_TOKEN } = process.env;
 
-mercadopago.configure({
-  access_token: MP_TOKEN,
-});
 
 const createPreference = async (req, res) => {
-
+  mercadopago.configure({
+    access_token: MP_TOKEN,
+  });
+  
   try {
     const { items, userId } = req.body;
     console.log("USER:", userId);
