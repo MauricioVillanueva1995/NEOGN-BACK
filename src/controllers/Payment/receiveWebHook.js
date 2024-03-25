@@ -19,6 +19,10 @@ const receiveWebHook = async (req, res) => {
       const data = response.data;
       console.log(data);
     }
+    if (response.status === 404) {
+      const data = response.data;
+      console.log(data);
+    }
     res.sendStatus(200);
   } catch (error) {
     console.error("Error:", error);
