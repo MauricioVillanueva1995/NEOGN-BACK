@@ -1,5 +1,7 @@
 const axios = require("axios");
 
+const accessToken = process.env.MP_TOKEN
+
 const receiveWebHook = async (req, res) => {
   const paymentId = req.query.id;
 
@@ -8,7 +10,7 @@ const receiveWebHook = async (req, res) => {
       `https://api.mercadopago.com/v1/payments/${paymentId}`,
       {
         headers: {
-          Authorization: `Bearer ${client.accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
         },
       }
     );
