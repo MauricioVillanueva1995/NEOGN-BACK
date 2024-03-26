@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 const calculateAverageRating = require("./src/utils/helpers/Average/avgRating");
 
 conn
-  .sync({ force: true })
+  .sync({ force: false })
   .then(() => {
     server.listen(PORT, async () => {
       let idHard = "SKU000";
