@@ -8,9 +8,29 @@ const PORT = process.env.PORT || 3001;
 
 const calculateAverageRating = require("./src/utils/helpers/Average/avgRating");
 
+// Define una función para limpiar la base de datos
+const cleanDatabase = async () => {
+  try {
+    // Elimina todos los registros de la tabla Product
+    await Product.destroy({ where: {} });
+
+    // Elimina todos los registros de la tabla User
+    await User.destroy({ where: {} });
+
+    console.log("Base de datos limpiada exitosamente.");
+  } catch (error) {
+    console.error("Error al limpiar la base de datos:", error);
+  }
+};
+
+// Sincroniza la base de datos después de limpiarla
 conn
   .sync({ force: false })
-  .then(() => {
+  .then(async () => {
+    // Llama a la función para limpiar la base de datos
+    await cleanDatabase();
+
+    // Inicia el servidor después de limpiar la base de datos
     server.listen(PORT, async () => {
       let idHard = "SKU000";
 
