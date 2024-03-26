@@ -66,10 +66,10 @@ const receiveWebHook = async (req, res) => {
     var paidAmount = 0;
 
     if (payment?.body?.status === "approved") {
-      paidAmount += payment.body.transaction_amount;
+      paidAmount += payment?.body?.transaction_amount;
     }
 
-    if (paidAmount >= body?.total_amount) {
+    if (paidAmount >= body?.body?.total_amount) {
       console.log("El pago se completó 😄");
       try {
         if (params.userId && params.userId.trim() !== "") {
