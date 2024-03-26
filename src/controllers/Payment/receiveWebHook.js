@@ -76,10 +76,10 @@ const receiveWebHook = async (req, res) => {
           const createUserResponse = await axios.post(`${DB_URL}/api/orders`, {
             userId: params.userId,
             paymentId: requestId,
-            status: body.order_status,
-            total: body.total_amount,
-            products: body.items,
-            preferenceId: body.preference_id,
+            status: body.body.order_status,
+            total: body.body.total_amount,
+            products: body.body.items,
+            preferenceId: body.body.preference_id,
           });
           if (createUserResponse.status === 200) {
             console.log("Order Created");
