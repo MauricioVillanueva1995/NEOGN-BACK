@@ -261,7 +261,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/QtMgkVq.png"],
       "threeDi": false,
-      "price": 199.99,
+      "price": 199,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -272,7 +272,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/LqjDNE5.png"],
       "threeDi": false,
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -288,7 +288,7 @@
         "https://ar-media.hptiendaenlinea.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/P/4P5P7AA-6_T1679637207.png"
       ],
       "threeDi": true,
-      "price": 79.99,
+      "price": 79,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -299,7 +299,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/nrw7Juo.png"],
       "threeDi": false,
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 2],
       "stock": 255
     },
@@ -343,7 +343,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/7yN67Hv.png"],
       "threeDi": false,
-      "price": 149.99,
+      "price": 149,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -359,7 +359,7 @@
         "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024/products/Gaming-Mousepads/CH-9440020-NA/Gallery/MM800_05.webp"
       ],
       "threeDi": true,
-      "price": 19.99,
+      "price": 19,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -370,7 +370,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/UPB1zgu.png"],
       "threeDi": false,
-      "price": 14.99,
+      "price": 14,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -381,7 +381,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/2g6Z2pg.png"],
       "threeDi": false,
-      "price": 24.99,
+      "price": 24,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -392,7 +392,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/YU2FqTs.png"],
       "threeDi": false,
-      "price": 9.99,
+      "price": 9,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -403,7 +403,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/q7N6euu.png"],
       "threeDi": false,
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -414,7 +414,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/2RzBRJc.png"],
       "threeDi": false,
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 5, 4],
       "stock": 255
     },
@@ -425,7 +425,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/Q0XNW6r.png"],
       "threeDi": false,
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -436,7 +436,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/PjTXbt9.png"],
       "threeDi": false,
-      "price": 17.99,
+      "price": 17,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -447,7 +447,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/2TMO3F3.png"],
       "threeDi": false,
-      "price": 22.99,
+      "price": 22,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -458,7 +458,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/5m8bF70.png"],
       "threeDi": false,
-      "price": 7.99,
+      "price": 7,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -469,7 +469,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/qgIygel.png"],
       "threeDi": false,
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -485,7 +485,7 @@
         "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g413-se/g413-se-gallery-5-new.png"
       ],
       "threeDi": true,
-      "price": 89.99,
+      "price": 89,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -496,7 +496,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/8tfqIen.png"],
       "threeDi": false,
-      "price": 159.99,
+      "price": 159,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -507,7 +507,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/xWW1EBv.png"],
       "threeDi": false,
-      "price": 119.99,
+      "price": 119,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -518,7 +518,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/0cwoDfq.png"],
       "threeDi": false,
-      "price": 99.99,
+      "price": 99,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -529,7 +529,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/U89KcCF.png"],
       "threeDi": false,
-      "price": 109.99,
+      "price": 109,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -540,7 +540,7 @@
       "brand": "Asus",
       "image": ["https://i.imgur.com/FSMcoKS.png"],
       "threeDi": false,
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -551,7 +551,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/WIAbBh6.png"],
       "threeDi": false,
-      "price": 139.99,
+      "price": 139,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -562,7 +562,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/C1ja3qn.png"],
       "threeDi": false,
-      "price": 109.99,
+      "price": 109,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -573,7 +573,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/xL9X3Hk.png"],
       "threeDi": false,
-      "price": 119.99,
+      "price": 119,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -589,7 +589,7 @@
         "https://assets2.jabra.com/0/0/e/c/00ec0d41b7fdba6ed435d6cad7d7d15a382b93c7_elite_5_beige_03.png"
       ],
       "threeDi": true,
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -600,7 +600,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/2HAQX4J.png"],
       "threeDi": false,
-      "price": 129.99,
+      "price": 129,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -611,7 +611,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/598dJP9.png"],
       "threeDi": false,
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -622,7 +622,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/P5yqWf5.png"],
       "threeDi": false,
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -633,7 +633,7 @@
       "brand": "Asus",
       "image": ["https://i.imgur.com/GTJk2Fx.png"],
       "threeDi": false,
-      "price": 69.99,
+      "price": 69,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -644,7 +644,7 @@
       "brand": "Asus",
       "image": ["https://i.imgur.com/WHso6ZC.png"],
       "threeDi": false,
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -655,7 +655,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/6yfnUVB.png"],
       "threeDi": false,
-      "price": 79.99,
+      "price": 79,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -666,7 +666,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/5iWFQIa.png"],
       "threeDi": false,
-      "price": 99.99,
+      "price": 99,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -677,7 +677,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/Rg26lhE.png"],
       "threeDi": false,
-      "price": 49.99,
+      "price": 49,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -688,7 +688,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/2zyNGYV.png"],
       "threeDi": false,
-      "price": 149.99,
+      "price": 149,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -699,7 +699,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/mRdzmwC.png"],
       "threeDi": false,
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -710,7 +710,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/gnlFiwX.png"],
       "threeDi": false,
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -721,7 +721,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/uUoNJDn.png"],
       "threeDi": false,
-      "price": 39.99,
+      "price": 39,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -732,7 +732,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/2FO6mS7.png"],
       "threeDi": false,
-      "price": 19.99,
+      "price": 19,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -743,7 +743,7 @@
       "brand": "Logitech",
       "image": ["https://i.imgur.com/4vTTjiV.png"],
       "threeDi": false,
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -759,7 +759,7 @@
         "https://assets.logitech.com/assets/65106/5/mx-master-2s.png"
       ],
       "threeDi": true,
-      "price": 24.99,
+      "price": 24,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -770,7 +770,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/c3ueZH5.png"],
       "threeDi": false,
-      "price": 29.99,
+      "price": 29,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -781,7 +781,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/RdwnTcv.png"],
       "threeDi": false,
-      "price": 34.99,
+      "price": 34,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -792,7 +792,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/nVVkD0X.png"],
       "threeDi": false,
-      "price": 27.99,
+      "price": 27,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -803,7 +803,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/nFvOpbm.png"],
       "threeDi": false,
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -814,7 +814,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/yjXAMiK.png"],
       "threeDi": false,
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -830,7 +830,7 @@
         "https://i.postimg.cc/Bbh4sn0m/hyperx-clut4ch-wireless-gaming-co-Photoroom-png-Photoroom.png"
       ],
       "threeDi": false,
-      "price": 69.99,
+      "price": 69,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -841,7 +841,7 @@
       "brand": "HyperX",
       "image": ["https://i.imgur.com/JKnYMs7.png"],
       "threeDi": false,
-      "price": 39.99,
+      "price": 39,
       "rating": [5, 4, 4],
       "stock": 255
     },
@@ -857,7 +857,7 @@
         "https://i.postimg.cc/3wpgkB0X/ofuniuvbw4gm8zzcagsy.png"
       ],
       "threeDi": true,
-      "price": 29.99,
+      "price": 29,
       "rating": [4, 4, 5],
       "stock": 255
     },
@@ -868,7 +868,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/NP5MDF6.png"],
       "threeDi": false,
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 2, 4],
       "stock": 255
     },
@@ -879,7 +879,7 @@
       "brand": "Corsair",
       "image": ["https://i.imgur.com/L8RfZKg.png"],
       "threeDi": false,
-      "price": 54.99,
+      "price": 54,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -890,7 +890,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/x7JMV8B.png"],
       "threeDi": false,
-      "price": 24.99,
+      "price": 24,
       "rating": [3, 2, 4],
       "stock": 255
     },
@@ -901,7 +901,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/mSBTaTl.png"],
       "threeDi": false,
-      "price": 59.99,
+      "price": 59,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -912,7 +912,7 @@
       "brand": "Razer",
       "image": ["https://i.imgur.com/hHf0WYY.png"],
       "threeDi": false,
-      "price": 44.99,
+      "price": 44,
       "rating": [4, 4, 4],
       "stock": 255
     },
@@ -923,7 +923,7 @@
       "brand": "Aorus",
       "image": ["https://i.imgur.com/Caa0kkj.png"],
       "threeDi": false,
-      "price": 49.99,
+      "price": 49,
       "rating": [4, 4, 4],
       "stock": 255
     }
