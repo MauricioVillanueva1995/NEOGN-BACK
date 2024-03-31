@@ -44,7 +44,6 @@ const receiveWebHook = async (req, res) => {
           paidAmount += payment.body.transaction_amount;
         }
 
-        // Ahora puedes acceder a las propiedades de payment dentro de este bloque
 
         const merchantOrder = await mercadopago.merchant_orders.findById(
           payment.body.order.id
