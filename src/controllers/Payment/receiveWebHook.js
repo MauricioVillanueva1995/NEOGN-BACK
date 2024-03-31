@@ -8,8 +8,7 @@ const processedRequests = new Set();
 const receiveWebHook = async (req, res) => {
   try {
     const { query } = req;
-    const { params } = req;
-    console.log("params", params.userId);
+    const userId = req.body.userId;
     console.log("req.body", req.body);
 
     const topic = query.topic || query.type;
@@ -44,7 +43,6 @@ const receiveWebHook = async (req, res) => {
           paidAmount += payment.body.transaction_amount;
         }
 
-
         const merchantOrder = await mercadopago.merchant_orders.findById(
           payment.body.order.id
         );
@@ -56,11 +54,11 @@ const receiveWebHook = async (req, res) => {
         if (paidAmount >= merchantOrder.body.total_amount) {
           console.log("El pago se completó 😄");
           try {
-            if (params.userId && params.userId.trim() !== "") {
+            if (userId && userId.trim() !== "") {
               const createUserResponse = await axios.post(
                 `${DB_URL}/api/orders`,
                 {
-                  userId: params.userId,
+                  userId: userId,
                   paymentId: requestId,
                   status: merchantOrder.body.order_status,
                   total: merchantOrder.body.total_amount,
