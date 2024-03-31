@@ -28,66 +28,68 @@ const receiveWebHook = async (req, res) => {
 
     processedRequests.add(requestId);
 
-    let payment;
-    let body;
-
     switch (topic) {
       case "payment":
         const paymentId = requestId;
         console.log(topic, "getting payment", paymentId);
 
-        payment = await mercadopago.payment.findById(paymentId);
+        const payment = await mercadopago.payment.findById(paymentId);
 
         console.log("payment.body", payment.body);
         console.log("payment status", payment.body.status);
 
-        body = await mercadopago.merchant_orders.findById(
+        var paidAmount = 0;
+
+        if (payment.body.status === "approved") {
+          paidAmount += payment.body.transaction_amount;
+        }
+
+        // Ahora puedes acceder a las propiedades de payment dentro de este bloque
+
+        const merchantOrder = await mercadopago.merchant_orders.findById(
           payment.body.order.id
         );
+
+        console.log("payment status outside the block", payment.body.status);
+        console.log("payment body outside the block", payment.body);
+        console.log("merchant order body", merchantOrder);
+
+        if (paidAmount >= merchantOrder.body.total_amount) {
+          console.log("El pago se completó 😄");
+          try {
+            if (params.userId && params.userId.trim() !== "") {
+              const createUserResponse = await axios.post(
+                `${DB_URL}/api/orders`,
+                {
+                  userId: params.userId,
+                  paymentId: requestId,
+                  status: merchantOrder.body.order_status,
+                  total: merchantOrder.body.total_amount,
+                  products: merchantOrder.body.items,
+                  preferenceId: merchantOrder.body.preference_id,
+                }
+              );
+              if (createUserResponse.status === 200) {
+                console.log("Order Created");
+              }
+            }
+          } catch (error) {
+            console.log("Error al crear la orden:", error.message);
+          }
+        }
+
         break;
 
       case "merchant_order":
         const orderId = requestId;
         console.log(topic, "getting merchant order", orderId);
-        body = await mercadopago.merchant_orders.findById(orderId);
+        const body = await mercadopago.merchant_orders.findById(orderId);
         console.log("showing body", body);
         break;
 
       default:
         console.log("El tema recibido no es válido.");
-        res.send();
-        return;
-    }
-
-    console.log("payment status outside the block", payment?.body?.status);
-    console.log("payment body outside the block", payment?.body);
-    console.log("body merchant order", body);
-
-    var paidAmount = 0;
-
-    if (payment?.body?.status === "approved") {
-      paidAmount += payment?.body?.transaction_amount;
-    }
-
-    if (paidAmount >= body?.body?.total_amount) {
-      console.log("El pago se completó 😄");
-      try {
-        if (params.userId && params.userId.trim() !== "") {
-          const createUserResponse = await axios.post(`${DB_URL}/api/orders`, {
-            userId: params.userId,
-            paymentId: requestId,
-            status: body.body.order_status,
-            total: body.body.total_amount,
-            products: body.body.items,
-            preferenceId: body.body.preference_id,
-          });
-          if (createUserResponse.status === 200) {
-            console.log("Order Created");
-          }
-        }
-      } catch (error) {
-        console.log("Error al crear la orden:", error.message);
-      }
+        break;
     }
 
     res.send();
