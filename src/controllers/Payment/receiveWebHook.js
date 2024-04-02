@@ -9,7 +9,6 @@ const receiveWebHook = async (req, res) => {
     console.log("params", params.userId);
     console.log("req.body", req.body);
     const topic = query.topic || query.type;
-    const userId = req.body.userId;
     console.log({ topic });
     const requestId = query.id || query["data.id"];
     if (processedRequests.has(requestId)) {
@@ -54,9 +53,9 @@ const receiveWebHook = async (req, res) => {
     if (paidAmount >= body?.body?.total_amount) {
       console.log("El pago se completó 😄");
       try {
-        if (userId && userId.trim() !== "") {
+        if (params.userId && params.userId.trim() !== "") {
           const createUserResponse = await axios.post(`${DB_URL}/api/orders`, {
-            userId: userId,
+            userId: params.userId,
             paymentId: requestId,
             status: body.body.order_status,
             total: body.body.total_amount,

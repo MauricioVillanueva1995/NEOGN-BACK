@@ -20,7 +20,7 @@ const createPreference = async (req, res) => {
         pending: `${URL_PRODUCTION}`,
       },
       auto_return: "approved",
-      notification_url: `${DB_URL}/api/payment/webhook`,
+      notification_url: `${DB_URL}/api/payment/webhook/${userId}`,
     };
 
     const response = await mercadopago.preferences.create(preference);
