@@ -11,19 +11,8 @@ const createOrder = async (data) => {
       total,
       products,
       preferenceId,
+      userId
     });
-
-    // Si se proporciona un userId, asociar el usuario a la orden
-    if (userId) {
-      const user = await db.User.findByPk(userId);
-
-      if (user) {
-        // Asociar el usuario a la orden utilizando el método setUsuario
-        await newOrder.setUser(user);
-      } else {
-        throw new Error("The user was not found in the database.");
-      }
-    }
 
     return newOrder;
   } catch (error) {

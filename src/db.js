@@ -27,13 +27,10 @@ paymentModel(sequelize);
 productModel(sequelize);
 userModel(sequelize);
 
-const { User, Order, Product } = sequelize.models;
+const { User, Product } = sequelize.models;
 
 Product.belongsToMany(User, { through: "ProductsUser" });
 User.belongsToMany(Product, { through: "ProductsUser" });
-
-User.hasMany(Order, { foreignKey: 'userId' });
-Order.belongsTo(User, { foreignKey: 'userId' });
 
 module.exports = {
   ...sequelize.models,
