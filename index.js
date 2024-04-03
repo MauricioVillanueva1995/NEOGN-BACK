@@ -25,7 +25,7 @@ const cleanDatabase = async () => {
 
 // Sincroniza la base de datos después de limpiarla
 conn
-  .sync({ force: false })
+  .sync({ force: true })
   .then(async () => {
     // Llama a la función para limpiar la base de datos
     await cleanDatabase();

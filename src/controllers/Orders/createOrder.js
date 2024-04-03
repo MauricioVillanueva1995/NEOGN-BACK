@@ -5,6 +5,7 @@ const createOrder = async (data) => {
 
   try {
     // Crear la orden
+    console.log('userId en createOrderd', userId);
     const newOrder = await db.Order.create({
       paymentId,
       status,
