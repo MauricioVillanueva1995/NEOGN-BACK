@@ -13,7 +13,7 @@
       ],
       "threeDi": false,
       "price": 269,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -29,7 +29,7 @@
       ],
       "threeDi": false,
       "price": 899,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -40,7 +40,7 @@
       "image": ["https://i.imgur.com/nKeotAS.png"],
       "threeDi": false,
       "price": 343,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -51,7 +51,7 @@
       "image": ["https://i.imgur.com/bNa8HuU.png"],
       "threeDi": false,
       "price": 133,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -67,7 +67,7 @@
       ],
       "threeDi": true,
       "price": 403,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -78,7 +78,7 @@
       "image": ["https://i.imgur.com/Z6EUOdX.png"],
       "threeDi": false,
       "price": 300,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -89,7 +89,7 @@
       "image": ["https://i.imgur.com/NjTZ0Yq.png"],
       "threeDi": false,
       "price": 250,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -100,7 +100,7 @@
       "image": ["https://i.imgur.com/QgwlLA9.png"],
       "threeDi": false,
       "price": 83,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -116,7 +116,7 @@
       ],
       "threeDi": false,
       "price": 103,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -132,7 +132,7 @@
       ],
       "threeDi": false,
       "price": 269,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -143,7 +143,7 @@
       "image": ["https://i.imgur.com/arEIFVa.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -154,7 +154,7 @@
       "image": ["https://i.imgur.com/fyhDHmT.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4]
+      "rating": [5, 5, 5]
     },
     {
       "name": "HyperX Cloud Alpha - Wireless Gaming Headset",
@@ -169,7 +169,7 @@
       ],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -180,7 +180,7 @@
       "image": ["https://i.imgur.com/7VmJ1yi.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -191,7 +191,7 @@
       "image": ["https://i.imgur.com/9i8hf34.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -202,7 +202,7 @@
       "image": ["https://i.imgur.com/8TzpoMg.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -218,7 +218,7 @@
       ],
       "threeDi": true,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -229,7 +229,7 @@
       "image": ["https://i.imgur.com/EIbdBKz.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -240,7 +240,7 @@
       "image": ["https://i.imgur.com/uhvpZjj.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -251,7 +251,7 @@
       "image": ["https://i.imgur.com/uhvpZjj.png"],
       "threeDi": false,
       "price": 33,
-      "rating": [5, 3, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -262,7 +262,7 @@
       "image": ["https://i.imgur.com/QtMgkVq.png"],
       "threeDi": false,
       "price": 199,
-      "rating": [4, 4, 5],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -311,7 +311,7 @@
       "image": ["https://i.imgur.com/fA8t8CT.png"],
       "threeDi": false,
       "price": 249,
-      "rating": [4, 5, 4],
+      "rating": [4, 2, 4],
       "stock": 255
     },
     {
@@ -322,7 +322,7 @@
       "image": ["https://i.imgur.com/1rVL0Ai.png"],
       "threeDi": false,
       "price": 49,
-      "rating": [4, 4, 5],
+      "rating": [4, 3, 3],
       "stock": 255
     },
     {
@@ -333,7 +333,7 @@
       "image": ["https://i.imgur.com/IIpJDVP.png"],
       "threeDi": false,
       "price": 69,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -360,7 +360,7 @@
       ],
       "threeDi": true,
       "price": 19,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -382,7 +382,7 @@
       "image": ["https://i.imgur.com/2g6Z2pg.png"],
       "threeDi": false,
       "price": 24,
-      "rating": [5, 4, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -393,7 +393,7 @@
       "image": ["https://i.imgur.com/YU2FqTs.png"],
       "threeDi": false,
       "price": 9,
-      "rating": [4, 4, 4],
+      "rating": [4, 2, 4],
       "stock": 255
     },
     {
@@ -415,7 +415,7 @@
       "image": ["https://i.imgur.com/2RzBRJc.png"],
       "threeDi": false,
       "price": 39,
-      "rating": [4, 5, 4],
+      "rating": [4, 2, 4],
       "stock": 255
     },
     {
@@ -426,7 +426,7 @@
       "image": ["https://i.imgur.com/Q0XNW6r.png"],
       "threeDi": false,
       "price": 34,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -448,7 +448,7 @@
       "image": ["https://i.imgur.com/2TMO3F3.png"],
       "threeDi": false,
       "price": 22,
-      "rating": [5, 4, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -486,7 +486,7 @@
       ],
       "threeDi": true,
       "price": 89,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -519,7 +519,7 @@
       "image": ["https://i.imgur.com/0cwoDfq.png"],
       "threeDi": false,
       "price": 99,
-      "rating": [5, 4, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -733,7 +733,7 @@
       "image": ["https://i.imgur.com/2FO6mS7.png"],
       "threeDi": false,
       "price": 19,
-      "rating": [5, 4, 4],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -744,7 +744,7 @@
       "image": ["https://i.imgur.com/4vTTjiV.png"],
       "threeDi": false,
       "price": 34,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -771,7 +771,7 @@
       "image": ["https://i.imgur.com/c3ueZH5.png"],
       "threeDi": false,
       "price": 29,
-      "rating": [5, 4, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -782,7 +782,7 @@
       "image": ["https://i.imgur.com/RdwnTcv.png"],
       "threeDi": false,
       "price": 34,
-      "rating": [4, 4, 5],
+      "rating": [5, 5, 5],
       "stock": 255
     },
     {
@@ -793,7 +793,7 @@
       "image": ["https://i.imgur.com/nVVkD0X.png"],
       "threeDi": false,
       "price": 27,
-      "rating": [5, 4, 4],
+      "rating": [3, 3, 3],
       "stock": 255
     },
     {
@@ -842,7 +842,7 @@
       "image": ["https://i.imgur.com/JKnYMs7.png"],
       "threeDi": false,
       "price": 39,
-      "rating": [5, 4, 4],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -858,7 +858,7 @@
       ],
       "threeDi": true,
       "price": 29,
-      "rating": [4, 4, 5],
+      "rating": [4, 4, 4],
       "stock": 255
     },
     {
@@ -891,7 +891,7 @@
       "image": ["https://i.imgur.com/x7JMV8B.png"],
       "threeDi": false,
       "price": 24,
-      "rating": [3, 2, 4],
+      "rating": [2, 2, 4],
       "stock": 255
     },
     {
