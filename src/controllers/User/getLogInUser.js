@@ -1,6 +1,6 @@
 const db = require("../../db");
 
-const getUser = async (clientId) => {
+const getLogInUser = async (clientId) => {
   try {
     const user = await db.User.findOne({ where: { clientId } });
     if (!user) {
@@ -12,4 +12,4 @@ const getUser = async (clientId) => {
   }
 };
 
-module.exports = getUser;
+module.exports = getLogInUser;

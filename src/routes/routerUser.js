@@ -4,6 +4,7 @@ const fs = require("fs-extra");
 
 const deleteUser = require("../controllers/User/deleteUser");
 const getUserById = require("../controllers/User/getUserById");
+const getLogInUser = require("../controllers/User/getLogInUser");
 const getUsers = require("../controllers/User/getUsers");
 const putUser = require("../controllers/User/putUser");
 const restoreUser = require("../controllers/User/restoreUser");
@@ -39,7 +40,7 @@ router.get("/:id", async (req, res) => {
 router.get("/logIn/:id", async (req, res) => {
   try {
     const { id } = req.params;
-    const user = await getUserById(id);
+    const user = await getLogInUser(id);
 
     res.status(200).json(user);
   } catch (error) {
