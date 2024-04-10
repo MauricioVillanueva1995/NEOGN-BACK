@@ -21,7 +21,7 @@ const cleanDatabase = async () => {
 };
 
 conn
-  .sync({ force: false })
+  .sync({ force: true })
   .then(async () => {
     await cleanDatabase();
 
